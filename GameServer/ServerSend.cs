@@ -38,7 +38,6 @@ namespace GameServer
                 _packet.Write(_toClient);
 
                 SendTCPData(_toClient, _packet);
-                //test
             }
         }
     }
